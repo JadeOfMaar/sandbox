@@ -1,8 +1,6 @@
-= = = = = = = = = = = = = = = = = =  
-        THE LINXIUM PROJECT  
-= = = = = = = = = = = = = = = = = =  
+![Linxium Logo](http://i.imgur.com/OLL6CVM.jpg)
 
-# Linxium
+# The Linxium Project
 The Linxium family of radioactive alkali pseudometals is a tease for vanilla players, :P a fantasy-based intermediate propulsion platform between the stock nuclear engine and the Near Future mods, and an exclusive tidbit for Gameslinx's planet mods.
 
 There are three variants of Linxium. Each has a special use case.
