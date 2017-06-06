@@ -1,8 +1,8 @@
 {
 	"NAME":"Linxium",
 	"DOWNLOAD":"https://github.com/JadeOfMaar/sandbox/releases",
-	"URL":"https://github.com/JadeOfMaar/sandbox/blob/dev/LinxiumProject/GameData/Linxium/Version/Linxium.version",
-	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/sandbox/blob/dev/LinxiumProject/GameData/Linxium/Version/Changelog.txt",
+	"URL":"https://github.com/JadeOfMaar/sandbox/blob/master/LinxiumProject/GameData/Linxium/Version/Linxium.version",
+	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/sandbox/blob/master/LinxiumProject/GameData/Linxium/Version/Changelog.txt",
 	"GITHUB":
 	{
 		"USERNAME":"JadeOfMaar",
