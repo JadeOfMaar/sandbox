@@ -18,6 +18,7 @@ This currently includes:
 * The I-LX series heavy lift ion engines.
 * The J-LX series nuclear scramjet engine.
 * GLX-Power nuclear reactors (built on the Convert-O-Trons).
+* R-LX series RCS thrusters.
 
 ### Modified  
 * The stock RTG, enhanced to consume byproduct Linxium11 from I-LX engine output and offset EC consumption.
