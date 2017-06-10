@@ -1,8 +1,6 @@
-= = = = = = = = = = = = = = = = = =  
-        THE LINXIUM PROJECT  
-= = = = = = = = = = = = = = = = = =  
+![Linxium Logo](http://i.imgur.com/OLL6CVM.jpg)
 
-# Linxium
+# The Linxium Project
 The Linxium family of radioactive alkali pseudometals is a tease for vanilla players, :P a fantasy-based intermediate propulsion platform between the stock nuclear engine and the Near Future mods, and an exclusive tidbit for Gameslinx's planet mods.
 
 There are three variants of Linxium. Each has a special use case.
@@ -20,6 +18,7 @@ This currently includes:
 * The I-LX series heavy lift ion engines.
 * The J-LX series nuclear scramjet engine.
 * GLX-Power nuclear reactors (built on the Convert-O-Trons).
+* R-LX series RCS thrusters.
 
 ### Modified  
 * The stock RTG, enhanced to consume byproduct Linxium11 from I-LX engine output and offset EC consumption.

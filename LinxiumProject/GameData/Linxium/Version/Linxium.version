@@ -1,8 +1,8 @@
 {
 	"NAME":"Linxium",
 	"DOWNLOAD":"https://github.com/JadeOfMaar/sandbox/releases",
-	"URL":"https://github.com/JadeOfMaar/sandbox/blob/dev/LinxiumProject/GameData/Linxium/Version/Linxium.version",
-	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/sandbox/blob/dev/LinxiumProject/GameData/Linxium/Version/Changelog.txt",
+	"URL":"https://github.com/JadeOfMaar/sandbox/blob/master/LinxiumProject/GameData/Linxium/Version/Linxium.version",
+	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/sandbox/blob/master/LinxiumProject/GameData/Linxium/Version/Changelog.txt",
 	"GITHUB":
 	{
 		"USERNAME":"JadeOfMaar",
@@ -13,7 +13,7 @@
 	{
 		"MAJOR":0,
 		"MINOR":1,
-		"PATCH":0,
+		"PATCH":1,
 		"BUILD":0
 	},
 	"KSP_VERSION":
