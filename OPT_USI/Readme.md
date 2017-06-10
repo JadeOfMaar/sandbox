@@ -1,4 +1,4 @@
-OPT_USI
+# OPT_USI
 
 This modlet has been provided as its own mod due to the complexity of USI. The many adjustments expected to come may make it impractical to provide this as merely one among the static MM patches already provided within the OPT downloads.
 
