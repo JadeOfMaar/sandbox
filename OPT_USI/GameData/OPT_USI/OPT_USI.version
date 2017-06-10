@@ -1,8 +1,8 @@
 {
 	"NAME":"OPT_USI",
 	"DOWNLOAD":"https://github.com/JadeOfMaar/sandbox/releases",
-	"URL":"https://github.com/JadeOfMaar/sandbox/blob/master/OPT_USI/GameData/OPT_USI/Version/OPT_USI.version",
-	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/sandbox/blob/master/OPT_USI/GameData/OPT_USI/Version/Changelog.txt",
+	"URL":"https://github.com/JadeOfMaar/sandbox/blob/master/OPT_USI/GameData/OPT_USI/OPT_USI.version",
+	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/sandbox/blob/master/OPT_USI/GameData/OPT_USI/Changelog.txt",
 	"GITHUB":
 	{
 		"USERNAME":"JadeOfMaar",
@@ -26,7 +26,7 @@
 	{
 		"MAJOR":1,
 		"MINOR":2,
-		"PATCH":0
+		"PATCH":2
 	},
 	"KSP_VERSION_MAX":
 	{
