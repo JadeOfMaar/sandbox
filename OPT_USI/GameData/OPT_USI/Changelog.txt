@@ -1,3 +1,12 @@
+v1.1.0 - 2017-06-16
+- - - - - - - - - - - - - - - - - - 
+Fixed broken IntakeAir on cockpits.
+Added IntakeAtm to cockpits.
+Added LF + EC, LFO + EC (no MonoPropellant) options to crewed parts
+Added LFO w/o MonoPropellant to H noses.
+Rebalanced some fuel options. Some places will have slightly more, some slightly less.
+
+
 v1.0.0 - 2017-06-10
 - - - - - - - - - - - - - - - - - - 
 Affects all cockpits except OPT I-LS AA Cockpit Mk1 because it has texture/mesh switching
