@@ -1,8 +1,15 @@
+v1.2.0 - 2017-06-18
+- - - - - - - - - - - - - - - - - - 
+Removed MonoPropellant from Supplies switch option on all parts with resource switching.
+Reduced preloaded MonoPropellant on cockpits that don't have switching.
+Fixed missing IntakeAir settings on J-HT cockpit.
+
+
 v1.1.0 - 2017-06-16
 - - - - - - - - - - - - - - - - - - 
 Fixed broken IntakeAir on cockpits.
 Added IntakeAtm to cockpits.
-Added LF + EC, LFO + EC (no MonoPropellant) options to crewed parts
+Added LF + EC, LFO + EC (no MonoPropellant) options to crewed parts.
 Added LFO w/o MonoPropellant to H noses.
 Rebalanced some fuel options. Some places will have slightly more, some slightly less.
 
