@@ -12,8 +12,10 @@ Things to do:
 
 * Find and install better plumes for Japier engines
 * Change sounds for Japier engines
-* Rig a stack engine or two, and VTOL engine(s)
+* Rig a stack engine or two (steal/integrate Karbonite rockets?), and VTOL engine(s)
 
 * Test sounds and EC consumption in warp drives
 * Add patches: exosphere harvester, resource scanner and antenna (prefer JX2 family)
 * Dedicate a WormEssence drill
+
+* Pick a planet from New Horizons
