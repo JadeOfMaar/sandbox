@@ -1,8 +1,28 @@
 v0.1
 - - - - - - - - - - - - - - - - - - 
+Things working:
+
+* Japier engines
+* Warp drives
+* Greenhouses (only for producing Spice itself)
+* Spice harvesters (crustal, ocean, atmospheric - uses stock and Karbonite)
+* Balloon tanks (SpiceGas and WormEssence)
+
+- - - - - - - - - - - - - - - - - - 
+Things not working or are missing:
+
+* Cargo boxes
+* Resource switching
+* Exosphere harvester
+* LS compatibility 
+* Subspace/hyperspace antennae (no patch yet)
+* Inline engines
+
+- - - - - - - - - - - - - - - - - - 
 Things to do:
 
 * Write and test LS configs
+* Includes function of spExt hub parts
 * Test animation trigger in spExt hub parts
 
 * Install resource and texture switching for big balloon
