@@ -1,9 +1,19 @@
+v0.1
+- - - - - - - - - - - - - - - - - - 
 Things to do:
+
 * Write and test LS configs
 * Test animation trigger in spExt hub parts
+
+* Install resource and texture switching for big balloon
+* Test possibility to add texture switching to boxes
+* Repurpose or remove Japier-alike tanks
+* Adjust categories, costs and TechRequired
+
 * Find and install better plumes for Japier engines
 * Change sounds for Japier engines
-* Test sounds and EC consumption in warp drives
 * Rig a stack engine or two, and VTOL engine(s)
-* Install fuel switch and tank configs for boxes and balloon
+
+* Test sounds and EC consumption in warp drives
 * Add patches: exosphere harvester, resource scanner and antenna (prefer JX2 family)
+* Dedicate a WormEssence drill

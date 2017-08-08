@@ -1,7 +1,7 @@
 # The Spice
 The most precious substance in the universe has come to KSP. Texture work is currently barely on the to-do for this one. What matters is that it's here and it works. See changelog.txt for to-do. This mod is still far from release-ready.  
   
-**Licenced CC-BY-SA-NC 4.0.** This mod intends to be entirely built on others with this same license.
+**Licenced CC-BY-NC-SA 4.0.** This mod intends to be entirely built on others with this same license.
 
 ## Integrations
 The following mods have these associations with The Spice:
