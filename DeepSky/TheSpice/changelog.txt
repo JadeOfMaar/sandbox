@@ -1,0 +1,9 @@
+Things to do:
+* Write and test LS configs
+* Test animation trigger in spExt hub parts
+* Find and install better plumes for Japier engines
+* Change sounds for Japier engines
+* Test sounds and EC consumption in warp drives
+* Rig a stack engine or two, and VTOL engine(s)
+* Install fuel switch and tank configs for boxes and balloon
+* Add patches: exosphere harvester, resource scanner and antenna (prefer JX2 family)
