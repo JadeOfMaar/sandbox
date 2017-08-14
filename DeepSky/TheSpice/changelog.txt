@@ -23,7 +23,6 @@ Things not working or are missing:
 - - - - - - - - - - - - - - - - - - 
 Things to do:
 
-* Includes function of spExt hub parts
 * Test animation trigger in spExt hub parts
 
 * Install resource and texture switching for big balloon
