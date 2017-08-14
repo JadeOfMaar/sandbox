@@ -1,3 +1,8 @@
+v1.2.2 - 2017-08-14
+- - - - - - - - - - - - - - - - - - 
+Added basic recycler to science labs.
+
+
 v1.2.1 - 2017-06-19
 - - - - - - - - - - - - - - - - - - 
 Somehow missed or lost Humpback Crew Cabin.
