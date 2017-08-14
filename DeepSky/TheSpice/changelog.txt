@@ -1,8 +1,10 @@
-v0.1
+v0.1.2
 - - - - - - - - - - - - - - - - - - 
 Things working:
 
 * Japier engines
+* Spice to LS inline converters (currently RTG-alike)
+* Resource switching for cargo boxes
 * Warp drives
 * Greenhouses (only for producing Spice itself)
 * Spice harvesters (crustal, ocean, atmospheric - uses stock and Karbonite)
@@ -21,12 +23,12 @@ Things not working or are missing:
 - - - - - - - - - - - - - - - - - - 
 Things to do:
 
-* Write and test LS configs
 * Includes function of spExt hub parts
 * Test animation trigger in spExt hub parts
 
 * Install resource and texture switching for big balloon
 * Test possibility to add texture switching to boxes
+* Fix attach nodes on boxes
 * Repurpose or remove Japier-alike tanks
 * Adjust categories, costs and TechRequired
 
@@ -34,7 +36,6 @@ Things to do:
 * Change sounds for Japier engines
 * Rig a stack engine or two (steal/integrate Karbonite rockets?), and VTOL engine(s)
 
-* Test sounds and EC consumption in warp drives
 * Add patches: exosphere harvester, resource scanner and antenna (prefer JX2 family)
 * Dedicate a WormEssence drill
 
