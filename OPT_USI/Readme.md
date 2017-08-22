@@ -10,7 +10,7 @@ This modlet will:
   * The H cabins only get hab multiplier. There's no perceivable room to add anything bulky in there.
   * The H stack tanks and noses get the other things in order to compensate.
 * The science labs currently get nothing. It's already settled that they're not allowed any tankage. As for modules I don't know what would be ideal. Suggestions welcome.
-* Add resources to all cargo bays, service bays and hollow fuselages (J Deployment bays and Stail cargo bays not included).
+* Add resources to all cargo bays, service bays and hollow fuselages (J Deployment bays, Boarding Ramps, and Stail cargo bays not included).
 
 The majority of parts' tank configs will not be touched.
 
@@ -18,10 +18,17 @@ Switch modes for crewed parts:
 
 * Structural
 * Supplies, Mulch, EC, Mono
-* LF, EC, Mono
-* LFO, EC, Mono
 * LF, EC
 * LFO, EC
+
+Switch modes for H body:
+
+* Structural
+* Supplies, Mulch, EC, Mono
+* LF, EC
+* LFO, EC
+* LF, EC, Mono
+* LFO, EC, Mono
 
 Switch modes for hollow parts:
 
