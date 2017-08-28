@@ -1,4 +1,4 @@
-v0.1.2
+v0.3
 - - - - - - - - - - - - - - - - - - 
 Things working:
 
@@ -9,33 +9,31 @@ Things working:
 * Greenhouses (only for producing Spice itself)
 * Spice harvesters (crustal, ocean, atmospheric - uses stock and Karbonite)
 * Balloon tanks (SpiceGas and WormEssence)
+* Life Support compatibility (USI and TAC)
+* Inline engines (1 of 2)
+* Resource switching
+* Better plumes for engines with permission from SuicidalInsanity, maker of Mk2 Expansion
+* Better sounds for engines
 
 - - - - - - - - - - - - - - - - - - 
 Things not working or are missing:
 
 * Cargo boxes
-* Resource switching
 * Exosphere harvester
-* LS compatibility 
 * Subspace/hyperspace antennae (no patch yet)
-* Inline engines
 
 - - - - - - - - - - - - - - - - - - 
 Things to do:
 
 * Test animation trigger in spExt hub parts
 
-* Install resource and texture switching for big balloon
+* Install texture switching for big balloon
 * Test possibility to add texture switching to boxes
 * Fix attach nodes on boxes
-* Repurpose or remove Japier-alike tanks
+* Rebalance SpiceGas amount in boxes
 * Adjust categories, costs and TechRequired
-
-* Find and install better plumes for Japier engines
-* Change sounds for Japier engines
-* Rig a stack engine or two (steal/integrate Karbonite rockets?), and VTOL engine(s)
 
 * Add patches: exosphere harvester, resource scanner and antenna (prefer JX2 family)
 * Dedicate a WormEssence drill
 
-* Pick a planet from New Horizons
+* New Horizons not supported
