@@ -30,13 +30,9 @@
 * Harvester pack
   * [x] Giant radial intake
   * [ ] Giant stack intake
-  * [ ] Alternate Resource Panel icons
-  * [ ] Karbonite integration or derivation
-    * [ ] Drills and pumps
-    * [ ] Discrete WormEssence drill
-    * [ ] Atmosphere scoops
-    * [ ] Exosphere
-    * [ ] Scanners
+  * [ ] Scanner(s)
+  * [ ] Drill(s)
+  * [x] Alternate Resource Panel icons
 * Progression
   * [ ] Tech tree nodes
   * [ ] Costs
