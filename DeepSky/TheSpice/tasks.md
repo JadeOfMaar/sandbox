@@ -1,5 +1,5 @@
 # Dev Tasks
-## The Spice v0.3
+## The Spice v0.35
 
 * Engine FX
   * [x] Sounds
@@ -9,7 +9,6 @@
   * [x] Radial heavy lift engines
   * [x] Stack + Srf-attach engine
   * [ ] Stack engine
-  * [ ] Adjust atmCurves
 * Life Support
   * [x] Inline converters (currently RTG-alike)
     * [ ] Find a secondary function and tie animation to its toggle, or un-make as RTGs
@@ -20,7 +19,7 @@
 * Cargo boxes
   * [ ] Fix attachment orientation
   * [x] Resource switching
-  * [ ] Texture switching or more boxes
+  * [ ] Texture switching or add more boxes
   * [ ] Rebalance SpiceGas amount
 * Balloon tanks
   * [x] SpiceGas
@@ -30,10 +29,19 @@
 * Harvester pack
   * [x] Giant radial intake
   * [ ] Giant stack intake
-  * [ ] Scanner(s)
-  * [ ] Drill(s)
+  * [x] Scanner(s)
+  * [x] Drill(s)
   * [x] Alternate Resource Panel icons
 * Progression
   * [ ] Tech tree nodes
   * [ ] Costs
 
+### Little things to do
+* Find missing texture for mini drill or scanner
+* Repaint radial intake
+* Get proper plumes for 2.5m engine(s)
+
+### Little things done
+* Arranged harvesters
+* Fixed negative costs on some parts
+* Adjusted costs and display names of resources
