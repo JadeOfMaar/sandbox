@@ -41,11 +41,11 @@
 * Get proper plumes for 2.5m engine(s)
 * Repaint scanners and drills
 * Fine-tune mini-drill
-* Add harveester to japiers
 
 ### Little things done
 * Repaint radial intake
 * Prepared scanners and drills
+* Add harveester to japiers
 * Arranged harvesters
 * Fixed negative costs on some parts
 * Adjusted costs and display names of resources
