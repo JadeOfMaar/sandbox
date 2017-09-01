@@ -1,5 +1,5 @@
 # Dev Tasks
-## The Spice v0.36
+## The Spice v0.4
 
 * Engine FX
   * [x] Sounds
@@ -8,8 +8,8 @@
   * [x] Warp Drives
   * [x] Radial heavy lift engines
   * [x] Stack + Srf-attach (1.25m) engine
-  * [ ] Stack (2.5m) engine
-* [ ] RCS
+  * [x] Stack + Srf-attach (2.5m) engine
+* [x] RCS
 * Life Support
   * [x] Inline converters (currently RTG-alike)
     * [ ] Find a secondary function and tie animation to its toggle, or un-make as RTGs
@@ -18,13 +18,12 @@
   * [x] TAC Compatibility
   * [x] USI Compatibility
 * Cargo boxes
-  * [ ] Fix attachment orientation
+  * [x] Fix attachment orientation
   * [x] Resource switching
   * [ ] Texture switching or add more boxes
-  * [ ] Rebalance SpiceGas amount
+  * [x] Rebalance SpiceGas amount
 * Balloon tanks
   * [x] SpiceGas
-  * [ ] SpiceMelange
   * [x] WormEssence
 * [ ] Subspace/FTL Antennae (to expand consciousness)
 * Harvester pack
@@ -38,14 +37,8 @@
   * [ ] Costs
 
 ### Little things to do
-* Get proper plumes for 2.5m engine(s)
 * Repaint scanners and drills
 * Fine-tune mini-drill
 
 ### Little things done
-* Repaint radial intake
-* Prepared scanners and drills
-* Add harveester to japiers
-* Arranged harvesters
-* Fixed negative costs on some parts
-* Adjusted costs and display names of resources
+
