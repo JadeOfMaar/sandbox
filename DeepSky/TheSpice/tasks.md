@@ -1,5 +1,5 @@
 # Dev Tasks
-## The Spice v0.4
+## The Spice v0.4.1
 
 * Engine FX
   * [x] Sounds
@@ -41,4 +41,5 @@
 * Fine-tune mini-drill
 
 ### Little things done
-
+* Updated FX for rocket engines, changed propellant ratios for warp engines
+* Defaulted all tanks to empyty
