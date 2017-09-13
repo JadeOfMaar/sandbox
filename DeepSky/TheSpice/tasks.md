@@ -1,5 +1,5 @@
 # Dev Tasks
-## The Spice v0.4.1
+## The Spice v0.4.2
 
 * Engine FX
   * [x] Sounds
@@ -9,12 +9,13 @@
   * [x] Radial heavy lift engines
   * [x] Stack + Srf-attach (1.25m) engine
   * [x] Stack + Srf-attach (2.5m) engine
+  * [x] Mk2 sporting engine
 * [x] RCS
 * Life Support
   * [x] Inline converters (currently RTG-alike)
     * [ ] Find a secondary function and tie animation to its toggle, or un-make as RTGs
-    * [ ] Srf-attach mini converters
-  * [x] Greenhouses
+    * [x] Srf-attach mini converter
+  * [x] Greenhouses (need replacing)
   * [x] TAC Compatibility
   * [x] USI Compatibility
 * Cargo boxes
@@ -37,9 +38,14 @@
   * [ ] Costs
 
 ### Little things to do
-* Repaint scanners and drills
+* Repaint/replace scanners and drills
 * Fine-tune mini-drill
+* Repaint Mk2 engine
 
 ### Little things done
-* Updated FX for rocket engines, changed propellant ratios for warp engines
-* Defaulted all tanks to empyty
+* Deleted greenhouses. Turns out they're under No-Derivs license
+* Repainted warp drives
+* Added mach curve to super-long intake
+* Added Mk2 engine
+* Fixed srf-attach recycler
+* Retuned all LS converter crew capacity
