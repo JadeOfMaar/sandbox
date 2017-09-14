@@ -1,5 +1,5 @@
 # Dev Tasks
-## The Spice v0.5
+## The Spice v0.5.1
 
 * Engine FX
   * [x] Sounds
@@ -15,7 +15,7 @@
   * [x] Inline converters (currently RTG-alike)
     * [ ] Find a secondary function and tie animation to its toggle, or un-make as RTGs
     * [x] Srf-attach mini converter
-  * [x] Greenhouses (need replacing)
+  * [x] Greenhouses
   * [x] TAC Compatibility
   * [x] USI Compatibility
 * Cargo boxes
@@ -41,7 +41,7 @@
 * Repaint/replace scanners and drills
 * Fine-tune mini-drill
 * Repaint Mk2 engine
-* Make white spice ISRU
+* Finish coding white spice ISRUs
 
 ### Little things done
 * Repaint greenhouses
