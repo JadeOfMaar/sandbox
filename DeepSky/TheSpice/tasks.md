@@ -1,5 +1,5 @@
 # Dev Tasks
-## The Spice v0.4.2
+## The Spice v0.5
 
 * Engine FX
   * [x] Sounds
@@ -21,7 +21,7 @@
 * Cargo boxes
   * [x] Fix attachment orientation
   * [x] Resource switching
-  * [ ] Texture switching or add more boxes
+  * [x] Texture switching or add more boxes
   * [x] Rebalance SpiceGas amount
 * Balloon tanks
   * [x] SpiceGas
@@ -41,11 +41,9 @@
 * Repaint/replace scanners and drills
 * Fine-tune mini-drill
 * Repaint Mk2 engine
+* Make white spice ISRU
 
 ### Little things done
-* Deleted greenhouses. Turns out they're under No-Derivs license
-* Repainted warp drives
-* Added mach curve to super-long intake
-* Added Mk2 engine
-* Fixed srf-attach recycler
-* Retuned all LS converter crew capacity
+* Repaint greenhouses
+* Replaced greenhouses. Even more ZZZ Things!
+* Added White Spice, white cargo boxes, feature in scanners, drills, biomes
