@@ -5,12 +5,13 @@ This modlet has been provided as its own mod due to the complexity of USI. The m
 This modlet will:
 
 * Remove all prior fuel switch setups from the targeted parts.
-* Add resources (and maybe USI modules) to all cockpits.
+* Add resources (and maybe USI modules) to almost all cockpits.
 * Add resources and USI modules to all other crewed parts with exceptions.
   * The H cabins only get hab multiplier. There's no perceivable room to add anything bulky in there.
   * The H stack tanks and noses get the other things in order to compensate.
-* The science labs currently get nothing. It's already settled that they're not allowed any tankage. As for modules I don't know what would be ideal. Suggestions welcome.
-* Add resources to all cargo bays, service bays and hollow fuselages (J Deployment bays, Boarding Ramps, and Stail cargo bays not included).
+  * The J boarding ramps get nothing.
+* The science labs get recyclers.
+* Add resources to all long cargo bays, service bays and hollow fuselages (but not the J Deployment Bay, Stail and Stail Freight parts, and the K, KH 3m parts).
 
 The majority of parts' tank configs will not be touched.
 

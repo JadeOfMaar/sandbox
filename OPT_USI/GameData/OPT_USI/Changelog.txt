@@ -1,7 +1,13 @@
+v1.3.1 - 2017-10-12
+- - - - - - - - - - - - - - - - - - 
+Added missing K parts (6m only).
+
+
 v1.3.0 - 2017-08-22
 - - - - - - - - - - - - - - - - - - 
 Removed MonoPropellant from all switch options except for H tanks. It's needless and excessive now since OPT Main introduces RCS blocks with tankage, and OPT Legacy introduced K, KH, Humpback Inline SAS with tankage.
 Reordered Mono options (to last) on H tanks.
+
 
 v1.2.2 - 2017-08-14
 - - - - - - - - - - - - - - - - - - 
