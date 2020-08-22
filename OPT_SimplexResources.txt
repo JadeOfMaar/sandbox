@@ -1,0 +1,546 @@
+// = = = B9 tank type = = =
+
+@B9_TANK_TYPE[OPTLFO]:NEEDS[B9PartSwitch,AngleCanMods/SIMPLEXResources]
+{
+	@RESOURCE[LiquidFuel]
+	{
+		@unitsPerVolume = 0.25
+	}
+	@RESOURCE[Oxidizer]
+	{
+		@unitsPerVolume = 0.75
+	}
+}
+
+// = = = LFO engine ratio = = =
+
+// J-60D Hybrid ScreamJet
+@PART[turboRamJetj_60d]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX]:HAS[@PROPELLANT[Oxidizer]]
+	{
+		@PROPELLANT[LiquidFuel]
+		{
+			@ratio = 0.25
+		}
+		@PROPELLANT[Oxidizer]
+		{
+			@ratio = 0.75
+		}
+	}
+}
+
+// J-81 Nacelle
+@PART[j81turbojet]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX]:HAS[@PROPELLANT[Oxidizer]]
+	{
+		@PROPELLANT[LiquidFuel]
+		{
+			@ratio = 0.25
+		}
+		@PROPELLANT[Oxidizer]
+		{
+			@ratio = 0.75
+		}
+	}
+}
+
+// ARI-75 LFO Engine
+// J Linear Aerospike
+// Stail Linear Aerospike
+@PART[AAengine,j_linear_aerospike,b_linear_aerospike]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX],*
+	{
+		@PROPELLANT[LiquidFuel]
+		{
+			@ratio = 0.25
+		}
+		@PROPELLANT[Oxidizer]
+		{
+			@ratio = 0.75
+		}
+	}
+}
+
+// Dark Drive; No Isp buff
+@PART[engine_darkDrive]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX],*
+	{
+		@PROPELLANT[LiquidFuel]
+		{
+			@ratio = 0.25
+		}
+		@PROPELLANT[Oxidizer]
+		{
+			@ratio = 0.75
+		}
+	}
+}
+
+// No Isp buff for Bubble
+// Wrappers
+// Valkyrie tilt
+// Helicarrier
+// LP-R 01 "Prominence"
+@PART[opt_vtol_wrap?1|opt_vtol_jump?1|opt_vtol_hc1|opt_vtol_lpr1]:AFTER[OPT_Legacy]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX]:HAS[@PROPELLANT[Oxidizer]]
+	{
+		@PROPELLANT[LiquidFuel]
+		{
+			@ratio = 0.25
+		}
+		@PROPELLANT[Oxidizer]
+		{
+			@ratio = 0.75
+		}
+	}
+}
+
+
+// EggDog
+@PART[opt_vtol_egg|opt_egg]:AFTER[OPT_Legacy]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX],*
+	{
+		@PROPELLANT[LiquidFuel]
+		{
+			@ratio = 0.25
+		}
+		@PROPELLANT[Oxidizer]
+		{
+			@ratio = 0.75
+		}
+	}
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[DynoTune]]
+	{
+		@SUBTYPE[450]
+		{
+			@MODULE
+			{
+				@DATA
+				{
+					@PROPELLANT[LiquidFuel]
+					{
+						@ratio = 0.25
+					}
+					@PROPELLANT[Oxidizer]
+					{
+						@ratio = 0.75
+					}
+				}
+			}
+		}
+		@SUBTYPE[600]
+		{
+			@MODULE
+			{
+				@DATA
+				{
+					@PROPELLANT[LiquidFuel]
+					{
+						@ratio = 0.25
+					}
+					@PROPELLANT[Oxidizer]
+					{
+						@ratio = 0.75
+					}
+				}
+			}
+		}
+		@SUBTYPE[750]
+		{
+			@MODULE
+			{
+				@DATA
+				{
+					@PROPELLANT[LiquidFuel]
+					{
+						@ratio = 0.25
+					}
+					@PROPELLANT[Oxidizer]
+					{
+						@ratio = 0.75
+					}
+				}
+			}
+		}
+		@SUBTYPE[900]
+		{
+			@MODULE
+			{
+				@DATA
+				{
+					@PROPELLANT[LiquidFuel]
+					{
+						@ratio = 0.25
+					}
+					@PROPELLANT[Oxidizer]
+					{
+						@ratio = 0.75
+					}
+				}
+			}
+		}
+	}
+}
+
+// = = = BadAir and WarpJet engines = = =
+
++RESOURCE_DEFINITION[IntakeAir]:NEEDS[AngleCanMods/SIMPLEXResources,!CommunityResourcePack]
+{
+	@name = BadAir
+	@displayName = BadAir
+}
+
+B9_TANK_TYPE:NEEDS[B9PartSwitch,AngleCanMods/SIMPLEXResources]
+{
+	name = OPTATM
+	tankMass = 0.0003
+	tankCost = 0.25
+	RESOURCE
+	{
+		name = BadAir
+		unitsPerVolume = 50
+	}
+}
+
+// Add BadAir to intakes
+@PART:HAS[@RESOURCE[IntakeAir],#manufacturer[C7?Aerospace?Division]]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{
+		@resourceName = BadAir
+		%checkForOxygen = false
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = BadAir
+	}
+}
+@PART:HAS[@RESOURCE[IntakeAir],#manufacturer[OPT?Aerospace?Division]]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{
+		@resourceName = BadAir
+		%checkForOxygen = false
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = BadAir
+	}
+}
+
+// WarpJet engines
+@PART[opt_sage|opt_vtol_wrap?2|opt_vtol_jump?2]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX],*
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = BadAir
+		}
+	}
+	@MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{
+		@checkForOxygen = True
+	}
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[DynoTune]]
+	{
+		@SUBTYPE,*
+		{
+			@MODULE
+			{
+				@DATA
+				{
+					@PROPELLANT[IntakeAir]
+					{
+						@name = BadAir
+					}
+				}
+			}
+		}
+	}
+}
+
+@PART[opt_surge]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@RESOURCE[BadAir]
+	{
+		@amount = 400
+		@maxAmount = 400
+	}
+	@MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{
+		@checkForOxygen = True
+	}
+	@MODULE[ModuleEnginesFX]
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = BadAir
+		}
+	}
+}
+@PART[opt_vtol_wrap?2|opt_vtol_jump?2]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX],*
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = BadAir
+		}
+	}
+	@RESOURCE[BadAir]
+	{
+		@amount *= 10
+		@maxAmount *= 10
+	}
+}
+@PART[opt_vtol_rudder*]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX]:HAS[#engineID[FanElectric]]
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = BadAir
+			DrawGauge = True
+		}
+	}
+	@MODULE[ModuleRCSFX]
+	{
+		@resourceName = BadAir
+	}
+}
+@PART[opt_vtol_heli*|opt_vtol_lpj1]:NEEDS[AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleEnginesFX]:HAS[#engineID[FanElectric]]
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = BadAir
+			DrawGauge = True
+		}
+	}
+}
+
+@PART[mk2_nose_opt]:NEEDS[B9PartSwitch,AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[OPTbody]]
+	{
+		SUBTYPE
+		{
+			name = OPTATM
+			tankType = OPTATM
+			title = BadAir
+			primaryColor = LightGrey
+			secondaryColor = LightGrey
+		}
+	}
+}
+@PART[b_4m_drone]:NEEDS[B9PartSwitch,AngleCanMods/SIMPLEXResources]
+{
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[OPTcmd]]
+	{
+		SUBTYPE
+		{
+			name = OPTATM
+			tankType = OPTATM
+			title = BadAir
+			primaryColor = LightGrey
+			secondaryColor = LightGrey
+		}
+	}
+}
+@PART[OPTdropTank|OPTdropTank2]:NEEDS[B9PartSwitch,AngleCanMods/SIMPLEXResources]
+{
+	// Drop tanks
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[OPTdrop]]
+	{
+		SUBTYPE
+		{
+			name = OPTATM
+			tankType = OPTATM
+			title = BadAir
+			transform = Oxidizer
+			primaryColor = LightGrey
+			secondaryColor = LightGrey
+		}
+	}
+}
+
+// Fan engines can change their turbine fuel mix
+@PART[opt_vtol_hc1|opt_vtol_bubble1|opt_vtol_jumpa1]:NEEDS[B9PartSwitch,AngleCanMods/SIMPLEXResources]
+{
+	@description ^= :$: <br><color="green">This part can change its turbine fuel mix.</color>
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = FuelMix
+		switcherDescription = Turbine Fuel Mix
+		switcherDescriptionPlural = Turbine Fuel options
+		switchInFlight = True
+		SUBTYPE
+		{
+			name = LF
+			title = LF + Air
+			primaryColor = ResourceColorLiquidFuel
+			secondaryColor = LightGrey
+			descriptionSummary = Uses LiquidFuel + IntakeAir
+			descriptionDetail = The default mix. Uses LF and ambient Oxygen to drive combustion and requires the remaining ambient Nitrogen for working fluid.<br><color="orange">When in flight, shutdown engine before switching.</color>
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleEnginesFX
+					engineID = AirBreathing
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = LiquidFuel
+						ratio = 1
+						DrawGauge = True
+					}
+					PROPELLANT
+					{
+						name = IntakeAir
+						ratio = 14
+						ignoreForIsp = True
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = LFO
+			title = LFO + Atm
+			primaryColor = ResourceColorLiquidFuel
+			secondaryColor =  ResourceColorOxidizer
+			descriptionSummary = Uses LFO + BadAir
+			descriptionDetail = Uses onboard LFO to drive combustion but still requires an atmosphere for working fluid.<br><color="orange">When in flight, shutdown engine before switching.</color>
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleEnginesFX
+					engineID = AirBreathing
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = LiquidFuel
+						ratio = 0.25
+						DrawGauge = True
+					}
+					PROPELLANT
+					{
+						name = Oxidizer
+						ratio = 0.75
+						DrawGauge = True
+					}
+					PROPELLANT
+					{
+						name = BadAir
+						ratio = 14
+						@ratio *= 50
+						ignoreForIsp = True
+					}
+				}
+			}
+		}
+	}
+}
+@PART[opt_vtol_heli1]:NEEDS[B9PartSwitch,AngleCanMods/SIMPLEXResources]
+{
+	@description ^= :$: <br><color="green">This part can change its turbine fuel mix.</color>
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = FuelMix
+		switcherDescription = Turbine Fuel Mix
+		switcherDescriptionPlural = Turbine Fuel options
+		switchInFlight = True
+		SUBTYPE
+		{
+			name = LF
+			title = LF + Air
+			primaryColor = ResourceColorLiquidFuel
+			secondaryColor = LightGrey
+			descriptionSummary = Uses LiquidFuel + IntakeAir
+			descriptionDetail = The default mix. Uses LF and ambient Oxygen to drive combustion and requires the remaining ambient Nitrogen for working fluid.<br><color="orange">When in flight, shutdown engine before switching.</color>
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleEnginesFX
+					engineID = FanLiquid
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = LiquidFuel
+						ratio = 1
+						DrawGauge = True
+					}
+					PROPELLANT
+					{
+						name = IntakeAir
+						ratio = 27
+						@ratio *= 50
+						ignoreForIsp = True
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = LFO
+			title = LFO + Atm
+			primaryColor = ResourceColorLiquidFuel
+			secondaryColor =  ResourceColorOxidizer
+			descriptionSummary = Uses LFO + BadAir
+			descriptionDetail = Uses onboard LFO to drive combustion but still requires an atmosphere for working fluid.<br><color="orange">When in flight, shutdown engine before switching.</color>
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleEnginesFX
+					engineID = FanLiquid
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = LiquidFuel
+						ratio = 0.25
+						DrawGauge = True
+					}
+					PROPELLANT
+					{
+						name = Oxidizer
+						ratio = 0.75
+						DrawGauge = True
+					}
+					PROPELLANT
+					{
+						name = BadAir
+						ratio = 27
+						@ratio *= 50
+						ignoreForIsp = True
+					}
+				}
+			}
+		}
+	}
+}
